@@ -3,7 +3,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -28,6 +30,7 @@
     "dotenv": "^16.3.1",
     "eslint": "^8.52.0",
     "eslint-config-next": "^14.0.0",
+    "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.3"
   },
   "engines": {
